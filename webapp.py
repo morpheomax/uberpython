@@ -52,3 +52,4 @@ hora=filtrado =st.slider("hour", 0, 23, 17)
 17
 filtrado=data[data[FECHA].dt.hour==hora]
 st.map(filtrado)
+
